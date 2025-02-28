@@ -11,7 +11,7 @@ from streamlit_option_menu import option_menu
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
-covid_model = pickle.load(open('covid_model.sav', 'rb'))  # Load COVID-19 model
+covid_model = pickle.load(open('disease_prediction_model.sav', 'rb'))  # Load COVID-19 model
 
 # Sidebar for navigation
 with st.sidebar:

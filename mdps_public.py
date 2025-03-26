@@ -16,7 +16,7 @@ covid_model = pickle.load(open('disease_prediction_model.sav', 'rb'))  # Load CO
 # Sidebar for navigation
 with st.sidebar:
     selected = option_menu(
-        'Multiple Disease Prediction System',
+        'Disease Predictor App',
         ['Diabetes Prediction', 'Heart Disease Prediction', 'Parkinson’s Prediction', 'COVID-19 Prediction'],
         icons=['activity', 'heart', 'person', 'virus'],
         default_index=0
